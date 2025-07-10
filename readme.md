@@ -36,3 +36,6 @@ STOCK_TICKER_TO_TEST = 'AES' # Modelin eğitildiği hisse senedi
 SUBSET_TO_TEST = 'Tum_Ozellikler'
 K_TO_TEST = 5
 WINDOW_TO_TEST = 3
+
+
+500 hisse sendi için eğittim için hem train sürem çok uzun oldu hem de çok yer kapladı (80gb) . Bu yüzden sadece AAPL hisse senedi için olanları yükleyeceğim ama hepsi için çalışıyor sistem her bir hisse sendininn ayrı ayrı alınmasının daha doğru olacağını düşündüğüm için bu şekilde yaptım ama train sürem çok uzadı ve bilgisayar hafızam yetmedi hatta bu yüzden RF tree dosyasında bir hata var.
